@@ -1,5 +1,7 @@
-def roll_call_dwarves(name) # code an argument here
-puts 
+def roll_call_dwarveshash = Hash.new
+%w(cat dog wombat).each_with_index { |item, index|
+  hash[item] = index
+}
 end
 
 def summon_captain_planet# code an argument here
