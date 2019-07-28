@@ -1,4 +1,4 @@
-def roll_call_dwarveshash(name)
+def roll_call_dwarves(name)
 %w(name).each_with_index { |item, index|
   hash[item] = index
 }
