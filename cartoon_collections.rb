@@ -1,5 +1,5 @@
-def roll_call_dwarveshash = Hash.new
-%w(cat dog wombat).each_with_index { |item, index|
+def roll_call_dwarveshash(name)
+%w(name).each_with_index { |item, index|
   hash[item] = index
 }
 end
